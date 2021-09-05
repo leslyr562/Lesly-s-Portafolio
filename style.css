@@ -16,7 +16,7 @@ header {
     background: rgb(211, 138, 253);
     color: seashell;
     display: flex;
-    justify-content: space-evenly ;
+    justify-content: space-between ;
     flex-wrap: wrap;
     background-position: center;
     background-attachment: fixed;
@@ -74,6 +74,15 @@ img{
     
 }
 
+.float-left {
+    float: left;
+}
+
+
+section {
+   background-image: url(./Images/pink\ bricks.jpg);
+   }
+
 
 .content {
 width: 60%;
@@ -90,8 +99,8 @@ margin-left: 20px;
     background-color: seashell;
     font-size: 20px;
     border-radius: 3%;
-    align-content: stretch;
     color: skyblue;
+
 }
 
 .work-done{
@@ -101,37 +110,51 @@ margin-left: 20px;
     width: 30%;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     background-color: seashell;
-    
+    border-radius: 3%;
 }
 
 .my-work {
 margin-bottom: 25px;
 padding: 50px;
-height: 400px;
+height: 368px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: seashell;
 font-size: 20px;
-border-radius: 3%;
-
 }
+
 
 .contact-info {
     margin-bottom: 25px;
     width: 60%;
     padding: 50px;
-    height: 200px;
+    height: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: seashell;
     font-size: 20px;
     border-radius: 3%;
     color: skyblue;
+
 }
 
-.float-left {
-    float: left;
+a {
+    color: skyblue;
+    font-size: 20px;
 }
 
+section div ul li {
+    display: inline-block;
+    margin-left: 50px;
+    text-align: left;
 
-section {
-   background-image: url(./Images/pink\ bricks.jpg);
-   }
+}
+
+.contact-me{
+    border-radius: 3%;
+}
+.contact-me img {
+    display: block;
+    margin: 1px 1px 1px 1px;
+    width: 40px;
+    height: 40px;
+
+}
