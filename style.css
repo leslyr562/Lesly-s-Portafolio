@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body{
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Styling header */
+
+header {
+    padding: 20px 20px;
+    background: rgb(211, 138, 253);
+    color: seashell;
+    display: flex;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 50%;
+    font-size: large;
+}
+header div{
+    margin: 1px;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+}
+header div ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 300px;
+    
+}
+
+header div ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 25px;
+    color: seashell;
+}
+
+footer{
+    background-color: rgb(211, 138, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 35px;
+}
+footer h2{
+    color: seashell;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* hero */
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+.hero { 
+
+}
+
+.content {
+width: 60%;
+display: inline-block;
+margin-left: 20px;
+}
+
+
+.about-me {
+    margin-bottom: 25px;
+    padding: 50px;
+    height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: seashell;
+    font-size: 20px;
+}
+
+.work-done{
+    margin: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 26%;
+    height: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-color: seashell;
+}
+
+.my-work{
+margin-bottom: 25px;
+padding: 50px;
+height: 300px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: seashell;
+font-size: 20px;
+}
+
+.float-left {
+    float: left;
+}
+
+
+section {
+   background-image: url(./Images/pink\ bricks.jpg);
+   }
